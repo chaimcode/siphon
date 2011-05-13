@@ -1,0 +1,54 @@
+***** NOTE ADDED MAY 2011 *****
+Siphon is a passive network mapping tool. It maps out computers on the local network by 
+monitoring traffic. It identifies all of the used ports, the frequency in which they are
+used and also can detect the operating systems by finding signatures in the network
+traffic. This was a very cool tool at the time. I am releasing it on github just for
+historical and reference purposes.
+
+*******************************
+
+    	   The Siphon Project: The Passive Network Mapping Tool
+   	      Copyright (c) 2000 Subterrain Security Group
+
+
+Siphon Homepage: http://www.subterrain.net/projects/siphon/
+
+Current Platforms:
+  * OpenBSD 2.7 ( Primary Devel Platform)
+  * FreeBSD 4.0 
+  * Linux 2.0.x -> 2.3.x
+  * IRIX 6.2
+
+*NEW NOTES MAY 2011*
+
+I'm surprised but this works on the latest OS X Snow Leopard! Compiles clean too!
+
+********************
+
+If you get Siphon working correctly under any new platforms, please let us
+know.
+
+Please send authors comments and suggestions.
+
+Author Contact:
+  unmarshal [ unmarshal@gmail.com ] Marshall Beddoe
+  aempirei [ aempirei@gmail.com ] Christopher Abad
+
+
+TODO:
+  * passive udp mapping option
+  * limit traffic to own subnet option
+  * optional statistical analysis
+  * report generation script
+
+Contributions & References:
+
+1. Interrupt [ Mike@eEye.com ] - Port of Siphon to Windows.
+2. qwer7y [ qwer7y@subterrain.net ] - Report generation script.
+3. scut [ scut@nb.in-berlin.de ] - Code testing and fingerprint gathering.
+4. vacuum [ vacuum@technotronic.com ] - Early code contributions.
+5. SSG [ www.subterrain.net ] - Code testing & Ideas.
+6. xdr [ xdr@h4x.com ] - Code testing.
+7. Lance Spitzner [ lance@spitzner.net ] - Passive OS Identification Paper
+8. Coretez Giovanni - Paper on offensive use of IDS.
+
